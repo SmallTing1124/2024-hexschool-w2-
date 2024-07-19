@@ -1,0 +1,42 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Bruno Ace SC", sans-serif;
+    line-height: 1.5;
+}
+
+.container {
+    width: 1296px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-1 {
+    width: calc(86px * 1 + 24px * (1 - 1));
+}
+
+.col-5 {
+    width: calc(86px * 5 + 24px * (5 - 1));
+}
+
+.col-6 {
+    width: calc(86px * 6 + 24px * (6 - 1));
+}
+
+.col-7 {
+    width: calc(86px * 7 + 24px * (7 - 1));
+
+}
+
+.col-8 {
+    width: calc(86px * 8 + 24px * (8 - 1));
+
+}

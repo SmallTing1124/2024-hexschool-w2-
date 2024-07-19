@@ -1,0 +1,113 @@
+.d-block {
+    display: block;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-inline-flex {
+    display: inline-flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-row-reverse {
+    flex-direction: row-reverse;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-end {
+    justify-content: end;
+}
+
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-items-end {
+    align-items: end;
+}
+
+.align-self-start {
+    align-self: flex-start;
+}
+
+.bg-primary {
+    background-color: $color-primary;
+}
+
+.bg-dark {
+    background-color: $color-dark;
+}
+
+.bg-light {
+    background-color: $color-light;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.g-24 {
+    gap: 24px;
+}
+
+.g-20 {
+    gap: 20px;
+}
+
+.img-fluid {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.ms-auto {
+    margin-left: auto;
+}
+
+.mb-36 {
+    margin-bottom: 36px;
+}
+
+.mb-32 {    
+    margin-bottom: 32px;
+}
+
+
+.mb-16 {
+    margin-bottom:16px;
+}
+
+.btn {
+    display: inline-flex;
+    padding: 12px 24px;
+    border-radius: 32px;
+    text-decoration: none;
+}
+
+.btn-light {
+    background-color: $color-light;
+    color: $color-dark;
+}
+
+
+.btn-dark {
+    background-color: $color-dark;
+    color: $color-light;
+
+}

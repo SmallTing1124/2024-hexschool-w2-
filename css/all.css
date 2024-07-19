@@ -1,0 +1,384 @@
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap");
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Bruno Ace SC", sans-serif;
+  line-height: 1.5;
+}
+
+.container {
+  width: 1296px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-1 {
+  width: 86px;
+}
+
+.col-5 {
+  width: 526px;
+}
+
+.col-6 {
+  width: 636px;
+}
+
+.col-7 {
+  width: 746px;
+}
+
+.col-8 {
+  width: 856px;
+}
+
+h1 {
+  font-size: 128px;
+}
+
+h2 {
+  font-size: 64px;
+}
+
+.fs-1 {
+  font-size: 64px;
+}
+
+.fs-2 {
+  font-size: 32px;
+}
+
+.fs-3 {
+  font-size: 24px;
+}
+
+.fs-4 {
+  font-size: 20px;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-primary {
+  color: #00FFA3;
+}
+
+.text-end {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-inline-flex {
+  display: inline-flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-end {
+  justify-content: end;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.align-items-end {
+  align-items: end;
+}
+
+.align-self-start {
+  align-self: flex-start;
+}
+
+.bg-primary {
+  background-color: #00FFA3;
+}
+
+.bg-dark {
+  background-color: #000;
+}
+
+.bg-light {
+  background-color: #fff;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.g-24 {
+  gap: 24px;
+}
+
+.g-20 {
+  gap: 20px;
+}
+
+.img-fluid {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.ms-auto {
+  margin-left: auto;
+}
+
+.mb-36 {
+  margin-bottom: 36px;
+}
+
+.mb-32 {
+  margin-bottom: 32px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.btn {
+  display: inline-flex;
+  padding: 12px 24px;
+  border-radius: 32px;
+  text-decoration: none;
+}
+
+.btn-light {
+  background-color: #fff;
+  color: #000;
+}
+
+.btn-dark {
+  background-color: #000;
+  color: #fff;
+}
+
+.navbar-nav {
+  display: flex;
+  padding: 40px 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.banner-area {
+  padding-top: 72px;
+  padding-bottom: 32px;
+}
+
+.intro-area {
+  padding: 160px 0;
+  background-attachment: fixed;
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true);
+}
+
+.about-area {
+  padding: 160px 0;
+}
+
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.card-list .card-item {
+  width: 306px;
+  border: 1px solid rgb(227, 227, 227);
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.08);
+  padding: 16px;
+  border: 1px solid #E3E3E3;
+}
+.card-list .card-title {
+  margin-bottom: 4px;
+}
+.card-list .card-title span {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.contact-area {
+  padding: 96px 0;
+  background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+}
+
+.project-area {
+  padding: 160px 0;
+}
+
+footer {
+  padding: 40px 0;
+}/*# sourceMappingURL=all.css.map */
